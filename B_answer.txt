@@ -1,0 +1,12 @@
+1. Không, xử lí bằng vòng lặp được thì chắc chắn xử lí bằng đệ qui được
+2. Có, trong những tình huống cần n vòng lặp lồng nhau mà không biết trước n hoặc biết trước nhưng n lớn, gây khó khăn trong việc triển khai 
+3. Tùy từng trường hợp, vẫn nên ưu tiên vòng lặp nếu không cần thiết sử dụng đệ qui vì chiếm ít bộ nhớ hơn và nhanh hơn.
+4. Tràn bộ nhớ
+5. Kiểu void không nhận về giá trị
+6. Điều kiện trả về giá trị lỗi
+7. mystery(2,25) -> 50
+   mystery(3,11) -> 33
+Mystery cho ra kết quả là a*b;
+thay + bằng * và return 1 thì mystery trả về là a^b
+
+	
